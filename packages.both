@@ -94,6 +94,7 @@ dconf-editor
 devhelp
 device-mapper
 dhcpcd
+dialog
 diffutils
 dosfstools
 e2fsprogs
