@@ -79,7 +79,10 @@ bash
 bbswitch
 binutils
 bison
+bluez
+bluez-libs
 bluez-utils
+bluez-firmware
 brasero
 bumblebee
 bzip2
@@ -256,6 +259,8 @@ polari
 polkit-gnome
 procps-ng
 psmisc
+pulseaudio-alsa
+pulseaudio-bluetooth
 python2-pyside
 quadrapassel
 refind-efi
