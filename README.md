@@ -3,4 +3,3 @@ My own ArchLinux build (Built for the first time the 10th of January 2017), feat
 
 Check the wiki to see how to build the ISO for your architecture (i686 or x86_64)
 
-(Page and repo in construction)
