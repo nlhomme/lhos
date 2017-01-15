@@ -258,20 +258,20 @@ for arch in x86_64; do
     run_once make_customize_airootfs
 done
 
-echo make_pacman_conf i686
-cp -v pacmani686.conf pacman.conf
-cp -v pacmani686.conf ${work_dir}/pacman.conf
+#echo make_pacman_conf i686
+#cp -v pacmani686.conf pacman.conf
+#cp -v pacmani686.conf ${work_dir}/pacman.conf
 
 
-for arch in i686; do
-    run_once make_basefs
-    run_once make_packages
-    run_once make_packages_efi
-    run_once make_setup_mkinitcpio
-    run_once make_customize_airootfs
-done
+#for arch in i686; do
+#    run_once make_basefs
+#    run_once make_packages
+#    run_once make_packages_efi
+#    run_once make_setup_mkinitcpio
+#    run_once make_customize_airootfs
+#done
 
-for arch in i686 x86_64; do
+for arch in x86_64; do
     run_once make_boot
 done
 
@@ -282,7 +282,7 @@ run_once make_isolinux
 run_once make_efi
 run_once make_efiboot
 
-for arch in i686 x86_64; do
+for arch in x86_64; do
     run_once make_prepare
 done
 

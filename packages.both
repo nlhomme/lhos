@@ -687,6 +687,7 @@ nvidia-settings
 nvidia-utils
 ocl-icd
 openal
+opencl-headers
 opencore-amr
 openjpeg2
 openresolv
@@ -732,6 +733,9 @@ poppler
 poppler-glib
 popt
 portaudio
+primus
+lib32-primus
+lib32-nvidia-utils
 procps-ng
 protobuf
 protobuf-c
@@ -857,9 +861,9 @@ sqlite
 squashfs-tools
 startup-notification
 steam
+steam-native-runtime
 subversion
 sudo
-supertuxkart
 sushi
 swell-foop
 sysfsutils
