@@ -335,7 +335,6 @@ jfsutils
 jre8-openjdk
 jre8-openjdk-headless
 js
-js17
 json-c
 json-glib
 kbd
@@ -699,7 +698,6 @@ orca
 os-prober
 osinfo-db
 ostree
-owncloud-client
 p11-kit
 p7zip
 package-query
