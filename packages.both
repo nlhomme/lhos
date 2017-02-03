@@ -675,6 +675,8 @@ netcdf
 netctl
 nettle
 networkmanager
+networkmanager-openvpn
+networkmanager-pptp
 nm-connection-editor
 npth
 nspr
@@ -692,6 +694,7 @@ openjpeg2
 openresolv
 openssh
 openssl
+
 opus
 orc
 orca
